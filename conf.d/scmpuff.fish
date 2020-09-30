@@ -10,7 +10,6 @@ if not type -q scmpuff
 end
 
 functions -e git
-alias gs=scmpuff_status
 
 function git
     type -q $SCMPUFF_GIT_CMD; or set -x SCMPUFF_GIT_CMD (which git)
